@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "cordova-plugin-tapsdk": "^1.0.0"
+  },
+  "name": "cordova-plugin-vilEcho",
+  "version": "1.0.0",
+  "description": "Echo Cordova Plugin",
+  "cordova": {
+    "id": "cordova-plugin-vilEcho",
+    "platforms": [
+      "android"
+    ]
+  },
+  "devDependencies": {
+    "cordova-plugin-tapsdk": "undefined1.0.0"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "Apache 2.0"
+}

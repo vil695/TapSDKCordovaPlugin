@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-vilEcho" version="1.0.0">
+    <name>Echo</name>
+    <description>Echo Cordova Plugin</description>
+    <license>Apache 2.0</license>
+
+
+    <js-module src="www/Echo.js" name="Echo">
+        <clobbers target="Echo" />
+    </js-module>
+
+
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="Echo">
+                <param name="android-package" value="com.tadazly.tapsdk.Echo" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Echo.java" target-dir="src/com/tadazly/tapsdk" />
+    </platform>
+</plugin>
